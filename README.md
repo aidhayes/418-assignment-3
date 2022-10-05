@@ -14,6 +14,6 @@ http://ec2-18-212-28-127.compute-1.amazonaws.com:9000
 - Create new inbound rule for port you want to use 
 - `cd` to directory w/ key (.pem)
 - `ssh -i "[key_name].pem" ubuntu@ec2-[ip]
-- clone repository
+- Clone repository
 - `cd` to repository
-- run `node index.js`
+- Run `node index.js`
