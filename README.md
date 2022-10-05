@@ -11,3 +11,9 @@ http://ec2-18-212-28-127.compute-1.amazonaws.com:9000
 ### Repository
 For submission purposes, if seeing this on GitHub, feel free to ignore :)  
 GitHub: https://github.com/aidhayes/418-assignment-3
+
+## Notes for future reference
+- Create new EC2 instance
+- Create new inbound rule for port you want to use 
+- `cd` to directory w/ key (.pem)
+- `ssh -i "[key_name].pem" ubuntu@ec2-[ip]
