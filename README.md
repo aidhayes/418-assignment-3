@@ -16,4 +16,5 @@ GitHub: https://github.com/aidhayes/418-assignment-3
 - Create new EC2 instance
 - Create new inbound rule for port you want to use 
 - `cd` to directory w/ key (.pem)
-- `ssh -i "[key_name].pem" ubuntu@ec2-[ip]
+- `ssh -i "Deploy-Assignment3.pem" ubuntu@ec2-[address].compute-1.amazonaws.com`
+- `node index.js`
