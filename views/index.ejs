@@ -1,35 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    </head>
-    <body>
-        <!-- Create a navbar with logo and title -->
-        <nav class="navbar bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand">
-                    <!-- Link to logo stored on an s3 bucket (Source: Berserk by Kentaro Miura) -->
-                    <img src="https://assignment3s3.s3.amazonaws.com/schnoz.webp" alt="Schnoz" width="30" height="30" class="d-inline-block align-text-top">
-                    About Me
-                  </a>
-            </div>
-        </nav>
-        <!-- Container for so that elements can be easily arranged on the site -->
-        <div class="container">
-            <div class="row">
-                <div class="col-4 px-1">
-                    <!-- Link to profile picture stored on an s3 bucket -->
-                    <img src="https://assignment3s3.s3.amazonaws.com/IMG_3246.jpg" class="img-fluid img-thumbnail" alt="Profile picture" width="300" height="300">
-                </div>
-                <div class="col-6 px-1">
-                    <h1>Aidan Hayes</h1>
-                    <!-- Column inside column so that the biography appears underneath the name -->
-                    <div class="col px-1 bg-light">
-                        <p>Hello, my name is Aidan Hayes. I'm a student at the University at Albany, SUNY majoring in Computer Science. I am currently working on my capstone project along with a team project in Software Engineering. I enjoy playing video games with my friends and watching football on Sundays.</p>
-                    </div>
-                </div>
-            
-            </div>
-        </div>
-    </body>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+  </body>
 </html>
