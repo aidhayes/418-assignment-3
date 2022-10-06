@@ -7,7 +7,7 @@ For node_modules, run:
 
 ## Links
 ### Website
-This link should work, I tested it from multiple devices. If it does not, please contact me.  
+This link should work, I tested it from multiple devices. If it does not, let me know.  
 ec2-18-212-28-127.compute-1.amazonaws.com:9000 
 
 ## Steps for hosting site on EC2
