@@ -6,7 +6,7 @@ const path = require('path');
 
 
 /* GET home page. */
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', "views");
 app.set('view engine', 'ejs');
 // Display HTML to port
 app.use(express.static(path.join(__dirname, 'index')));
