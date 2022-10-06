@@ -8,7 +8,7 @@ const path = require('path');
 /* GET home page. */
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-// Display HTML to localhost
+// Display HTML to port
 app.use(express.static(path.join(__dirname, 'index')));
 
 app.get('/', (req, res) => res.render('index', {}));
